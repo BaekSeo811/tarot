@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <div id="aside" th:fragment="asideFragment">
+        <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+        <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+            <div class="text-center">
+                <div class="author-img" style="background-image: url(/static/images/about.jpg);"></div>
+                <h1 id="colorlib-logo"><a th:href="@{/auth/login}">LOGIN</a></h1>
+                <span class="position"><a th:href="@{/mypage/myPoint}">포인트: 9000 </a> 등급 : 사용자</span>
+            </div>
+            <div id="colorlib-main-menu" role="navigation">
+                <div class="collapse">
+                    <ul>
+                        <li><a th:href="@{/reading/question}">셀프 타로</a></li>
+                        <li><a th:href="@{/chat/readerList}">타로 상담 받기</a></li>
+                        <li><a th:href="@{/board}">게시판</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            </br></br></br>
+            <div class="text-center">Github : </div>
+            <div class="colorlib-footer">
+                <p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved. Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
+            </div>
+
+        </aside>
+    </div>
+</html>
+

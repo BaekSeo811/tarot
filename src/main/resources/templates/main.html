@@ -1,107 +1,103 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      layout:decorate="~{/default}">
-<body>
-<div id="colorlib-page">
-    <div class="container-wrap">
-
-
-        <div id="colorlib-main">
-            <th:block layout:fragment="customContents">
-                <section class="colorlib-about" data-section="about">
-                    <div class="colorlib-narrow-content">
-                        <div class="row">
+      layout:decorate="~{fragments/default}">
+<div layout:fragment="content">
+    <h3>Tatarot MainPage</h3></br>
+    <span>레이아웃 테스트 중</span>
+    <div id="colorlib-main">
+        <section class="colorlib-about" data-section="about">
+            <div class="colorlib-narrow-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                             <div class="col-md-12">
-                                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                                    <div class="col-md-12">
-                                        <div class="about-desc">
-                                            <h2 class="colorlib-heading">Recently Most Liked Reader</h2>
-                                        </div>
-                                    </div>
+                                <div class="about-desc">
+                                    <h2 class="colorlib-heading">Recently Most Liked Reader</h2>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-                                        <div class="services color-1">
-                                            <span class="icon2"><i class="icon-bulb"></i></span>
-                                            <h3>Reader A</h3>
-                                            <span>specific</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-                                        <div class="services color-2">
-                                            <span class="icon2"><i class="icon-globe-outline"></i></span>
-                                            <h3>Reader B</h3>
-                                            <span>specific</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-                                        <div class="services color-3">
-                                            <span class="icon2"><i class="icon-data"></i></span>
-                                            <h3>Reader C</h3>
-                                            <span>specific</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-                                        <div class="services color-4">
-                                            <span class="icon2"><i class="icon-phone3"></i></span>
-                                            <h3>Reader D</h3>
-                                            <span>specific</span>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="services color-1">
+                                    <span class="icon2"><i class="icon-bulb"></i></span>
+                                    <h3>Reader A</h3>
+                                    <span>specific</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+                                <div class="services color-2">
+                                    <span class="icon2"><i class="icon-globe-outline"></i></span>
+                                    <h3>Reader B</h3>
+                                    <span>specific</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+                                <div class="services color-3">
+                                    <span class="icon2"><i class="icon-data"></i></span>
+                                    <h3>Reader C</h3>
+                                    <span>specific</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+                                <div class="services color-4">
+                                    <span class="icon2"><i class="icon-phone3"></i></span>
+                                    <h3>Reader D</h3>
+                                    <span>specific</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
+            </div>
+        </section>
 
 
-                <section class="colorlib-blog" data-section="blog">
-                    <div class="colorlib-narrow-content">
-                        <div class="row">
-                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <h2 class="colorlib-heading">Recent Post</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="blog-entry">
-                                    <a href="#" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-                                    <div class="desc">
-                                        <span><small>2024.01.01 </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-                                        <h3><a href="#">Title1</a></h3>
-                                        <p>Contents</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-                                <div class="blog-entry">
-                                    <a href="#" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-                                    <div class="desc">
-                                        <span><small>2024.01.01 </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-                                        <h3><a href="#">Title1</a></h3>
-                                        <p>Contents</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="blog-entry">
-                                    <a href="#" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-                                    <div class="desc">
-                                        <span><small>2024.01.01 </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-                                        <h3><a href="#">Title1</a></h3>
-                                        <p>Contents</p>
-                                    </div>
-                                </div>
+        <section class="colorlib-blog" data-section="blog">
+            <div class="colorlib-narrow-content">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                        <h2 class="colorlib-heading">Recent Post</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="blog-entry">
+                            <a href="#" class="blog-img"><img th:src="@{/images/blog-1.jpg}" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+                            <div class="desc">
+                                <span><small>2024.01.01 </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+                                <h3><a href="#">Title1</a></h3>
+                                <p>Contents</p>
                             </div>
                         </div>
                     </div>
-                </section>
-            </th:block>
-        </div><!-- end:colorlib-main -->
-    </div><!-- end:container-wrap -->
-</div><!-- end:colorlib-page -->
+                    <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+                        <div class="blog-entry">
+                            <a href="#" class="blog-img"><img th:src="@{/images/blog-2.jpg}" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+                            <div class="desc">
+                                <span><small>2024.01.01 </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+                                <h3><a href="#">Title1</a></h3>
+                                <p>Contents</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="blog-entry">
+                            <a href="#" class="blog-img"><img th:src="@{/images/blog-3.jpg}" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+                            <div class="desc">
+                                <span><small>2024.01.01 </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
+                                <h3><a href="#">Title1</a></h3>
+                                <p>Contents</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-</body>
+
+    </div>
+
+</div>
+
 </html>
-
